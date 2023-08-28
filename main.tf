@@ -1,5 +1,5 @@
 variable "user_names" {
-  default = ["user1", "user2", "user3"]
+  default = ["user10", "user20", "user30"]
 }
 
 resource "aws_iam_user" "example" {
