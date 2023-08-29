@@ -7,6 +7,6 @@ resource "aws_instance" "instance1" {
   }
 }
 
-output "my_console_output" {
+output "my_instance_publicip is:" {
   value = aws_instance.instance1.public_ip
 }
