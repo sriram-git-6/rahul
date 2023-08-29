@@ -9,4 +9,6 @@ resource "aws_instance" "instance1" {
 
 output "instance_publicip_is" {
   value = aws_instance.instance1.public_ip
+  sensitive = true
+  #if sensitive is true then it does not show any sensitive information in this case it will not show the public ip
 }
